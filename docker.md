@@ -1,1 +1,0 @@
-Run the following command to mount filesystem
