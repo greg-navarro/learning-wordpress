@@ -7,7 +7,7 @@ function startwordpress_scripts() {
 	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.min.js', array( 'jquery' ), '5.2.2', true );
 }
 
-add_action( 'wp_enqueue_scripts', 'startwordpress_scripts' );
+// add_action( 'wp_enqueue_scripts', 'startwordpress_scripts' );
 
 // Add Google Fonts
 function startwordpress_google_fonts() {
